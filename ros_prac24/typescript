@@ -1,0 +1,134 @@
+Script started on 2024-05-14 10:01:20+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="30"]
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24[00m$ rosrun ros_prac hello_node.py s[Kas[K[Kscripts
+
+Command 'scripts' not found, but can be installed with:
+
+sudo apt install gitlab-runner
+
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24[00m$ cd scripts/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ cd ../
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24[00m$ cdv ../
+
+Command 'cdv' not found, did you mean:
+
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.1build1)
+  command 'cdb' from deb tinycdb (0.78build1)
+  command 'cdp' from deb irpas (0.10-7)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+  command 'cdi' from deb cdo (1.9.9~rc1-1)
+  command 'cdo' from deb cdo (1.9.9~rc1-1)
+  command 'udv' from deb ncbi-tools-x11 (6.1.20170106+dfsg1-8)
+  command 'ddv' from deb ncbi-tools-x11 (6.1.20170106+dfsg1-8)
+
+Try: sudo apt install <deb name>
+
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24[00m$ cd ../
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ ls
+readme.md  [0m[01;34mros_prac24[0m  [01;34msrc[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ cd //\
+> cd //\^C
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ cd .,.[K[K./
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mros_recture24[0m  [01;34mturtlebot3_gazebo_plugin[0m  [01;34mturtlebot3_simulations[0m
+[01;34mros_lecture[0m     [01;34mturtlebot3[0m     [01;34mturtlebot3_msgs[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src[00m$ a[Kcd ros_lew[Kcture/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_lecture[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_lecture[00m$ ls
+2023-06-20-14-11-04.bag  [0m[01;34mkame_control[0m  readme.md  [01;34mros_prac[0m  [01;34msrc[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_lecture[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_lecture[00m$ cd ..//^?
+bash: cd: $'..//\177': No such file or directory
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_lecture[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_lecture[00m$ cd ../
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src[00m$ cd ros_recture24/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ cd src/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/src[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/src[00m$ cd scer[K\[Kr[K[Kri[K[K[K[K[K[K[Kls
+2024-04-30-15-21-47.bag  kadai01.py  kadai02.py  kadai03.py  kadai04.py  kadai05.py
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/src[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/src[00m$ cd ../
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ ls
+readme.md  [0m[01;34mros_prac24[0m  [01;34msrc[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24[00m$ r[Kcd ros_prac24/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24[00m$ cd scripts/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ kls[K[K[Kls
+[0m[01;32mhello_node.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ sudo chmod +x hello_node.py 
+[sudo] password for s101-04: 
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ caty[K[Ktkin build ild[K[K[K-this
+usage: catkin [-h] [-a] [--test-colors] [--version] [--force-color | --no-color]
+              [build | clean | config | create | env | init | list | locate | profile | test] ...
+catkin: error: unrecognized arguments: -this
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ catkin build -this-this
+[35m------------------------------------------------------------[0m[0m
+[36mProfile:[0m                     [33mdefault[0m[0m
+[36mExtending:[0m          [32m[cached][0m[0m [33m/opt/ros/noetic[0m[0m
+[36mWorkspace:[0m                   [33m/home/s101-04/catkin_ws[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[36mBuild Space:[0m        [32m[exists][0m[0m [33m/home/s101-04/catkin_ws/build[0m[0m
+[36mDevel Space:[0m        [32m[exists][0m[0m [33m/home/s101-04/catkin_ws/devel[0m[0m
+[36mInstall Space:[0m      [34m[unused][0m[0m [33m/home/s101-04/catkin_ws/install[0m[0m
+[36mLog Space:[0m          [32m[exists][0m[0m [33m/home/s101-04/catkin_ws/logs[0m[0m
+[36mSource Space:[0m       [32m[exists][0m[0m [33m/home/s101-04/catkin_ws/src[0m[0m
+[36mDESTDIR:[0m            [34m[unused][0m[0m [33mNone[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[36mDevel Space Layout:[0m          [33mlinked[0m[0m
+[36mInstall Space Layout:[0m        [33mNone[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[36mAdditional CMake Args:[0m       [33mNone[0m[0m
+[36mAdditional Make Args:[0m        [33mNone[0m[0m
+[36mAdditional catkin Make Args:[0m [33mNone[0m[0m
+[36mInternal Make Job Server:[0m    [33mTrue[0m[0m
+[36mCache Job Environments:[0m      [33mFalse[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[36mBuildlisted Packages:[0m        [33mNone[0m[0m
+[36mSkiplisted Packages:[0m         [33mNone[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[1m[36mWorkspace configuration appears valid.[0m[0m
+[35m------------------------------------------------------------[0m[0m
+[build] Found 14 packages in 0.0 seconds.                                                                         
+[build] Package table is up to date.                                                                              
+Starting  [1m[32m>>>[0m [1m[36mros_prac24               [0m[0m                                                                           
+[[35mbuild[0m - [33m0.1[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.1[0m][0m                                       [[35mbuild[0m - [33m0.2[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.2[0m][0m                                       [[35mbuild[0m - [33m0.3[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.3[0m][0m                                       [[35mbuild[0m - [33m0.4[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.4[0m][0m                                       [[35mbuild[0m - [33m0.5[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.5[0m][0m                                       [[35mbuild[0m - [33m0.6[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.6[0m][0m                                       [[35mbuild[0m - [33m0.7[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.7[0m][0m                                       [[35mbuild[0m - [33m0.8[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.8[0m][0m                                       [[35mbuild[0m - [33m0.9[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mcheck[0m - [33m0.9[0m][0m                                       [[35mbuild[0m - [33m1.0[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m6[0m jobs] [[1m[30m0[0m queued][0m [[36mros_prac24[0m:[34mmake[0m - [33m1.0[0m][0m                                        [1m[30mFinished[0m  [32m<<<[0m [36mros_prac24               [0m [ [33m1.0 seconds[0m ][0m                                                           
+[build] [3m[1m[32mSummary:[0m [3mAll [1m1[0m [3mpackages succeeded![0m[0m                                                                        
+[build]   [3m[1m[35mIgnored:[0m   [3m[1m13[0m [3mpackages were skipped or are skiplisted.[0m[0m                                                  
+[build]   [3m[1m[30mWarnings:  None.[0m[0m                                                                                        
+[build]   [3m[1m[30mAbandoned: None.[0m[0m                                                                                        
+[build]   [3m[1m[30mFailed:    None.[0m[0m                                                                                        
+[build] [3m[1mRuntime:[0m [3m1.1 seconds total.[0m[0m                                                                               
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ mkdir pub_test.py
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m  [01;34mpub_test.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ lsmkdir pub_test.pyls[Kcatkin build --this[1Pthissudo chmod +x hello_node.py [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@u[1@b[1@_[1@t[1@e[1@s[1@t
+[sudo] password for s101-04: 
+ Sorry, try again.
+[sudo] password for s101-04: 
+Sorry, try again.
+[sudo] password for s101-04: 
+sudo: 3 incorrect password attempts
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ sudo chmod +x pub_test.py aa[K[K
+[sudo] password for s101-04: 
+Sorry, try again.
+[sudo] password for s101-04: 
+sudo: 1 incorrect password attempt
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ aaa[K[K[Kuser[K[K[K[Ksudo chmod +x pub_test.py 
+[sudo] password for s101-04: 
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ rm -rf pub_test.py/
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m  pub_test.py
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ lsrm -rf pub_test.py/sudo chmod +x pub_test.py 
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m  [01;32mpub_test.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ lssudo chmod +x pub_test.py ls[Krm -rf pub_test.py/sudo chmod +x pub_test.py ls[Kmkdir pub_test.pyls[Ksudo chmod +x pub_test.py [7Prm -rf pub_test.py/ls[Ksudo chmod +x pub_test.py ls[Ksudo chmod +x pub_test.py ls[Ksudo chmod +x pub_test.py ls[K[Klssudo chmod +x pub_test.py ls[K[Klssudo chmod +x pub_test.py [1P[1@s
+[sudo] password for s101-04: 
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m  [01;32mpub_test.py[0m  [01;32msub_test.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ lssudo chmod +x sub_test.py ls[K[Klssudo chmod +x sub_test.py [1@p[1@u[1@b
+[sudo] password for s101-04: 
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_ws/src/ros_recture24/ros_prac24/scripts[00m$ ls
+[0m[01;32mhello_node.py[0m  [01;32mpub_test.py[0m  [01;32mpubsub_test.py[0m  [01;32msub_test.py[0m
+]0;s101-04@DESKTOP-A2L6UI9: ~/catkin_ws/src/ros_recture24/ros_prac24/scripts[01;32ms101-04@DESKTOP-A2L6UI9[00m:[01;34m~/catkin_w
