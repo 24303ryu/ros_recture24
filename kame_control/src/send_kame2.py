@@ -4,14 +4,15 @@ import rospy
 from geometry_msgs.msg import PoseWithCovarianceStamped
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 import actionlib
+import dynamic_reconfigure.client
+
 
 class SimpleGoal:
     def __init__(self):
         self.way_points = [
-            [-0.5,-0.5,0],
-            [0,1.0,0],
-            [1.0,0,0],
-            [0,-1.0,0],
+            [-6.0,-3.0,0],
+            [7.0,4.0,0],
+            [6.0,-6.0,0],
         ]
         
         rospy.init_node('simple_goal')
@@ -21,8 +22,8 @@ class SimpleGoal:
         init_pose = PoseWithCovarianceStamped()
         init_pose.header.stamp = rospy.Time.now()
         init_pose.header.frame_id = 'map'
-        init_pose.pose.pose.position.x = -2.0
-        init_pose.pose.pose.position.y = -0.5
+        init_pose.pose.pose.position.x = -3.0
+        init_pose.pose.pose.position.y = 1.0
         init_pose.pose.pose.position.z = 0
         init_pose.pose.pose.orientation.w = 1.0
 
@@ -34,6 +35,9 @@ class SimpleGoal:
         rospy.loginfo("Waiting for the move_base action server to come up")
         self.ac.wait_for_server(rospy.Duration(5.0))
         rospy.loginfo("The server comes up")
+        
+        self.client = dynamic_reconfigure.client.Client("move_base/DWAPlannerROS")
+        self.client.update_configuration({"max_vel_x": 100.0, "max_vel_theta": 10.0})
 
     def send_goal(self, x, y, yaw):
         goal = MoveBaseGoal()
@@ -46,7 +50,7 @@ class SimpleGoal:
         rospy.loginfo("Sending goal: x=%.2f, y=%.2f, yaw=%.2f", x, y, yaw)
         self.ac.send_goal(goal)
 
-        succeeded = self.ac.wait_for_result(rospy.Duration(30.0))
+        succeeded = self.ac.wait_for_result(rospy.Duration(1000.0))
         state = self.ac.get_state()
 
         if succeeded:
